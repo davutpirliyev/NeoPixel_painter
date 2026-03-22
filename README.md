@@ -4,7 +4,7 @@ A high-resolution Persistence of Vision (POV) light painting stick built with an
 ## 🌟 Result
 | Original Image | Light Painting Result |
 | :---: | :---: |
-| ![Original](tkm_afg.png) | ![Result](1774206424579.jpg) |
+| ![Original](/src/tkm_afg.png) | ![Result](/src/result.jpg) |
 
 ## 🛠 Technical Specifications
 - **Microcontroller:** STM32F103C8T6 (ARM Cortex-M3)
