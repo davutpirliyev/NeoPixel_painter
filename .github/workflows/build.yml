@@ -1,0 +1,21 @@
+name: PlatformIO CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip
+      - name: Install PlatformIO
+        run: pip install --upgrade platformio
+      - name: Run PlatformIO Build
+        run: pio run
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: firmware
+          path: .pio/build/**/firmware.bin
