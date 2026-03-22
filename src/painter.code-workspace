@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Projects/painter"
+		},
+		{
+			"name": "NeoPixel_painter",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
