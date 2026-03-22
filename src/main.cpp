@@ -78,7 +78,7 @@
 
 #include <Arduino.h>
 #include <FastLED.h>
-#include "/home/cipher/Projects/painter/image_data.h"
+#include "image_data.h"
 
 // --- CONFIGURATION ---
 #define LED_PIN     PB15
